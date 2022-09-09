@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	char helloPut[] = ""programmig is like building a multilingual puzzle";
+	char helloPut[] = "\"programmig is like building a multilingual puzzle";
 	       puts(helloPut);	
 	       return 0;
 }
