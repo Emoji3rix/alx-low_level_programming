@@ -5,3 +5,4 @@ Tasks:
 write a script that compiles a C file but does not link
 2 - write a script that generates the assembly code of a C code and save it in an output file
 3 - write a script that compiles a C file and creates and executable named cisfun
+4 - write a C program that prints exactly "programming is like building a multilingual puzzle
