@@ -8,7 +8,7 @@ int main(void)
 {
 	int b;
 	int j;
-	
+
 	b = 97;
 	j = 65;
 
