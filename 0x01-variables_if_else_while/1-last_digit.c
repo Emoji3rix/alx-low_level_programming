@@ -4,7 +4,7 @@
 /**
  * main - print last digit in random number
  * Description: print last digit in random number
- * Return: Always 0 
+ * Return: 0 
  */
 int main(void)
 {
@@ -29,4 +29,3 @@ int main(void)
 	}
 	return (0);
 }	
-
