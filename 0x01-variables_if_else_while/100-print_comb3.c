@@ -1,21 +1,21 @@
 #include <stdio.h>
 /**
  * main - possible combination of two numbers.
- * Retun: 0.
+ * Return: 0.
  */
 int main(void)
 {
 
 	int i, j;
 
-	for(i = 0; i < 9; i++)
+	for (i = 0; i < 9; i++)
 	{
-		for(j = i + 1; j < 10; j++)
+		for (j = i + 1; j < 10; j++)
 		{
 			putchar((i % 10) + '0');
 			putchar((j % 10) + '0');
 
-			if (i == 8 && j ==9)
+			if (i == 8 && j == 9)
 				continue;
 
 			putchar(',');
@@ -24,4 +24,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
