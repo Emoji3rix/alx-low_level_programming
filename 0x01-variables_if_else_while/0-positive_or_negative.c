@@ -3,10 +3,7 @@
 #include <time.h>
 /**
  * main - determines if the number is negative or positive
- 
- * Description: program will assign a random number to the variable n each time 
- * it is executed.
- *
+ * Description: program will assign a random number to the variable.
  * Return: Always 0 (success)
  */
 int main(void)
