@@ -6,17 +6,15 @@
 
 int main(void)
 {
-	int i = 97;
+	char l;
 
-	while (i < 123)
+	for (l = 'a'; l <= 'z'; l++)
 	{
-		if (i != 101 && i !=133)
-		{
-			putchar(i);
-		}
-		i++;
+		if (l != 'e' && l != 'q')
+			putchar(l);
 	}
-	putchar(10);
+
+	putchar('\n');
 
 	return (0);
 }
