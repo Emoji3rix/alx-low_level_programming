@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - program that prints all the size 
+ * main - program that prints all the size
  * Return: 0.
  */
 int main(void)
