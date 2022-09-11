@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - print all possible combination
  * Return: 0
  */
