@@ -1,6 +1,7 @@
 #include <stdio.h>
-/* main - print all possible combo for 3 digits.
- * Return: 0'
+/** 
+ * main - print all possible combination
+ * Return: 0
  */
 int main(void)
 {
