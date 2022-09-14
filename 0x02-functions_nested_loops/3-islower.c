@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * islower - checks if a character is lower
- *
+ * @c: The character to be checked.
  * Return: return 1 if lower other return 0.
  */
 
@@ -9,6 +9,6 @@ int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
-	else 
+	else
 		return (0);
 }
