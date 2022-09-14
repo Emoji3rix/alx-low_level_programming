@@ -3,7 +3,6 @@
 
 
 /**
- *
  * print_sign - Prints the sign of a number.
  *
  * @n: The number of which the sign will be printed.
@@ -23,7 +22,7 @@ int print_sign(int n)
 	{
 		_putchar('+');
 
-		return (1);							
+		return (10);
 	}
 
 	else if (n == 0)
