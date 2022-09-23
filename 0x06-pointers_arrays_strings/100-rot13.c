@@ -13,7 +13,6 @@
 char *rot13(char *str)
 
 {
-
 		int indx1 = 0, indx2;
 		char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
 				     'G', 'H', 'i', 'j', 'k', 'l',
