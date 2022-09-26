@@ -12,8 +12,8 @@
 
 6. Write a function that prints the chessboard.
 
-7. Write a function that prints the sum of the two diagonals of a square matrix of integers.
+7. Write a function that prints the sum of the two diagonals of a square matrix  of integers.
 
-8. 
+8.
 
 9.
