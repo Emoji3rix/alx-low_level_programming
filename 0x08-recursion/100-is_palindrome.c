@@ -88,6 +88,5 @@ int checker(char *s1, char *s2, int a, int b, int wildUsed)
 		return (checkLast(s2, b));
 
 	return (1);
-
-
+	}
 }
