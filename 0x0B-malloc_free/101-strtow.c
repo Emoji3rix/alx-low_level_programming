@@ -103,7 +103,7 @@ int print_words(int *pos, char **m, char *str, int words)
 		for (l = 0; l < sz - 1; l++, p1++)
 			*(*(m + b) + l) = *(str + p1);
 		*(*(m + b) + l) = '\0';
-		b1 = b1 + 2;
+				b1 = b1 + 2;
 	}
 	*(m + b) = NULL;
 	return (0);
@@ -136,13 +136,12 @@ char **strtow(char *str)
 		return (NULL);
 	}
 	pos = (int *)malloc(sizeof(int) * words * 2);
-
-		if (pos == NULL)
-		{
-			free(m);
-			free(pos);
-			return (NULL);
-		}
+	if (pos == NULL)
+	{
+		free(m);
+		free(pos);
+		return (NULL);
+	}
 	look_pos(str, pos);
 	if (print_words(pos, m, str, words))
 	{
